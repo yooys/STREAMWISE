@@ -138,63 +138,66 @@
     </style>
 </head>
 
-<body>
+    <body>
 
-    <header>
-        <h1>STREAMWISE</h1>
-    </header>
+        <header>
+            <h1>STREAMWISE</h1>
+        </header>
 
-    <div class="divider"></div>
+        <div class="divider"></div>
 
-    <main>
-        <section class="content-section">
-            <h2>OTT 콘텐츠 추천 웹사이트 STREAMWISE</h2>
-            <label for="genre-select">태그를 선택하세요:</label>
-            <select id="genre-select" multiple onfocus="this.size=5;" onblur="this.size=1;">
-                <option value="romance">로맨스</option>
-                <option value="comedy">코미디</option>
-                <option value="action">액션</option>
-                <option value="fantasy">판타지</option>
-                <option value="sci-fi">공상과학</option>
-            </select>
-        </section>
+        <main>
+            <section class="content-section">
+                <h2>OTT 콘텐츠 추천 웹사이트 STREAMWISE</h2>
+                <label for="genre-select">태그를 선택하세요:</label>
+                <select id="genre-select" multiple onfocus="this.size=5;" onblur="this.size=1;">
+                    <option value="romance">로맨스</option>
+                    <option value="comedy">코미디</option>
+                    <option value="action">액션</option>
+                    <option value="fantasy">판타지</option>
+                    <option value="sci-fi">공상과학</option>
+                </select>
+            </section>
 
-        <section class="recommend-section">
-            <h3>추천 콘텐츠:</h3>
-            <ul id="content-list">
-                <li class="content-item romance" data-title="노트북" data-description="라이언 고슬링,레이첼 맥아담스 주연의 명작 로맨스 영화.">노트북
-                </li>
-                <li class="content-item comedy" data-title="SNL KOREA"
-                    data-description="정치풍자와 꽁트로 출연자들이 망가지는 모습을 보여주는 코미디 티비 프로그램">SNL KOREA</li>
-                <li class="content-item action" data-title="액션 영화 1" data-description="이곳은 액션 영화 1에 대한 설명입니다.">액션 영화 1
-                </li>
-                <li class="content-item fantasy" data-title="판타지 영화 1" data-description="이곳은 판타지 영화 1에 대한 설명입니다.">판타지 영화
-                    1</li>
-                <li class="content-item sci-fi" data-title="공상과학 영화 1" data-description="이곳은 공상과학 영화 1에 대한 설명입니다." ">공상과학 영화 1</li>
-                <li class=" content-item action comedy" data-title="액션 & 코미디 영화 1"
-                    data-description="이곳은 액션 & 코미디 영화 1에 대한 설명입니다.">액션 & 코미디 영화 1</li>
-                <li class="content-item romance fantasy" data-title="로맨스 & 판타지 영화 1"
-                    data-description="이곳은 로맨스 & 판타지 영화 1에 대한 설명입니다.">로맨스 & 판타지 영화 1</li>
-            </ul>
-        </section>
-    </main>
+            <section class="recommend-section">
+                <h3>추천 콘텐츠:</h3>
+                <ul id="content-list">
+                    <li class="content-item romance" data-title="노트북" data-description="라이언 고슬링, 레이첼 맥아담스 주연의 명작 로맨스 영화">노트북</li>
+                    <li class="content-item romance" data-title="비긴어게인" data-description="라이언 고슬링, 레이첼 맥아담스 주연의 명작 로맨스 영화">비긴어게인</li>
+                    <li class="content-item romance comedy" data-title="로맨틱홀리데이" data-description="로맨틱 코미디의 정석같은 영화">로맨틱홀리데이</li>
+                    <li class="content-item comedy" data-title="SNL KOREA"
+                        data-description="정치풍자와 꽁트로 출연자들이 망가지는 모습을 보여주는 코미디 티비 프로그램">SNL KOREA</li>
+                    <li class="content-item action" data-title="다크나이트" data-description="크리스토퍼 놀란 감독의 대표작으로 슈퍼히어로 영화 장르의 한 획을 그은 명작 액션 영화">다크나이트</li>
+                    <li class="content-item fantasy" data-title="해리포터" data-description="해리포터 시리즈의 시작을 알리는 작품으로 해리포터 원작의 설정을 최대한 해치지 않고 만들어 해리포터 시리즈를 대중의 뇌에 각인시킨 영화">해리포터</li>
+                    <li class="content-item sci-fi" data-title="마션" data-description="마션이라는 동명의 원작 소설을 바탕으로 하는 공상과학 영화로 지루하지 않고 낙관적인 영화">마션</li>
+                    <li class="content-item action comedy" data-title="007 북경특급" data-description="주성치 감독, 주성치 주연의 영화로 아무 생각 없이 보기 좋은 코미디, 액션 영화">007 북경특급</li>
+                    <li class="content-item romance fantasy" data-title="트와일라잇" data-description="뱀파이어와 로맨스라는 소재를 잘 어울리도록 연출한 영화">트와일라잇</li>
+                    <li class="content-item sci-fi action" data-title="트랜스포머" data-description="최고의 액션과 최고의 CG기술력을 갖췄지만 스토리가 빈약한 영화">트랜스포머</li>
+                    <li class="content-item fantasy action" data-title="반지의 제왕:반지 원정대" data-description="반지의 제왕 시리즈의 시작을 알린 작품으로 높은 CG기술력 훌룡한 배우들의 연기 깜금한 스토리 3박자가 완벽한 영화">반지의 제왕:반지 원정대</li>
+                    <li class="content-item sci-fi action comedy fantasy" data-title="에브리씽 에브리웨어 올 앳 원스" data-description="멀티버스를 소재로 하는 영화로 일반인 관람객과 영화 평론가들 모두에게 극찬을 받은 2022년 최고의 영화">에브리씽 에브리웨어 올 앳 원스</li>
+                    <li class="content-item romance action" data-title="스파이더맨 2" data-description="토비 맥과이어 주연의 스파이더맨 시리즈중 2번째 영화로 스토리와 스차이더맨 특유의 액션씬으로 시리즈에서 가장 호평을 받은 영화">스파이더맨2</li>
+                    <li class="content-item sci-fi romance" data-title="패신저스" data-description="공상과학의 탈을 쓴 로맨스 영화">패신저스</li>
+                    <li class="content-item sci-fi action comedy fantasy romance" data-title="가디언즈 오브 갤럭시" data-description="B급 코미디에 스페이스 오페라 장르를 녹이고 범죄자들이 팀을 이뤄 세계를 구한다는 특이한 소재를 적절하게 녹인 영화">가디언즈 오브 갤럭시</li>
+                </ul>
+            </section>
+        </main>
 
-    <footer>
-        <p>저작권 © 2024 STREAMWISE</p>
-    </footer>
+        <footer>
+            <p>저작권 © 2024 STREAMWISE</p>
+        </footer>
 
-    <!-- 모달 -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close-button">&times;</span>
-            <img id="modal-image" class="modal-image" src="" alt="콘텐츠 이미지">
-            <h2 id="modal-title"></h2>
-            <p id="modal-description"></p>
+        <!-- 모달 -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+            </div>
         </div>
-    </div>
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 
-</body>
+    </body>
+
 
 </html>
